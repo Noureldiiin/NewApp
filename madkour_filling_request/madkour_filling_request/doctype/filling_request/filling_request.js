@@ -6,8 +6,10 @@ frappe.ui.form.on('Filling Request', {
 		download_file: function(frm) {
 			frm.doc.cows = []
 			frappe.call({
-				doc: frm.doc,
-				method: "download_file",
+				args: {
+					"doc" : frm.doc
+				},
+				method: "madkour_filling_request.madkour_filling_request.doctype.template.template.download_file",
 				callback: function(r) {
 					frm.refresh_fields();
 					frm.refresh();

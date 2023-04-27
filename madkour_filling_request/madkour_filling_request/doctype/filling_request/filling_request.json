@@ -8,7 +8,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "test_name",
+  "full_name",
   "address",
   "download_file",
   "column_break_xn5q",
@@ -19,7 +19,7 @@
   "received_name",
   "column_break_mrmg",
   "received_national_id",
-  "received_mobile_number"
+  "received_phone_number"
  ],
  "fields": [
   {
@@ -58,11 +58,6 @@
    "label": "Received National ID"
   },
   {
-   "fieldname": "received_mobile_number",
-   "fieldtype": "Data",
-   "label": "Received Mobile Number"
-  },
-  {
    "fieldname": "column_break_xn5q",
    "fieldtype": "Column Break"
   },
@@ -75,16 +70,21 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "test_name",
+   "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Full Name"
+  },
+  {
+   "fieldname": "received_phone_number",
+   "fieldtype": "Data",
+   "label": "Received Phone Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-26 12:13:23.873341",
+ "modified": "2023-04-27 16:52:33.319672",
  "modified_by": "Administrator",
- "module": "Nour",
+ "module": "Madkour Filling Request",
  "name": "Filling Request",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
