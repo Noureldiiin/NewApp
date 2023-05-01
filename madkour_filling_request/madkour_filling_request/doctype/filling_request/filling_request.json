@@ -19,7 +19,8 @@
   "received_name",
   "column_break_mrmg",
   "received_national_id",
-  "received_phone_number"
+  "received_phone_number",
+  "file_name"
  ],
  "fields": [
   {
@@ -78,11 +79,16 @@
    "fieldname": "received_phone_number",
    "fieldtype": "Data",
    "label": "Received Phone Number"
+  },
+  {
+   "fieldname": "file_name",
+   "fieldtype": "Data",
+   "label": "File Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-27 16:52:33.319672",
+ "modified": "2023-04-30 13:01:45.823399",
  "modified_by": "Administrator",
  "module": "Madkour Filling Request",
  "name": "Filling Request",
